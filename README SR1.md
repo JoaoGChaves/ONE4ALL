@@ -25,3 +25,13 @@ Soluções para problemas semelhantes incluem a implementação de sistemas de g
 COMO SE DEU O PROCESSO DE IDEAÇÃO DO GRUPO?
 
 O nosso processo de ideação iniciou com uma pesquisa geral sobre os Caçadores para construir nossa matriz CSD, que levou à elaboração de perguntas e dúvidas sobre o cliente para a reunião com a PO dos Caçadores, Vanessa. Após esse encontro, nós reunimos as informações que foram discutidas na reunião e fizemos uma segunda pesquisa, com o intuito de obter mais informações sobre as ONGs catalogadas pelos Caçadores: selecionamos 60 dessas ONGs e pesquisamos seus principais dados. Simultaneamente, fizemos a pesquisa sobre as supostas soluções similares que poderiam servir da inspiração para a nossa solução. Por fim, com todas as informações e dados em mãos, fizemos o Brainwriting. Nosso processo de ideação se baseou nesse método em que cada integrante escreve suas ideias, para, no fim, combinar as melhores escritas pelo grupo. Depois selecionamos essas melhores ideias e fizemos a análise delas, envolvendo suas vantagens e desvantagens, para, finalmente, chegarmos à nossa solução.
+
+QUAL A SOLUÇÃO ESCOLHIDA?
+
+Sistema Web white label com painel de controle de dados e página de doação (landing page customizável para a ONG)
+
+Funcionalidades:
+
+- Área com o que doar dependendo da necessidade da ONG (marketplace)
+- Mostrar o destino final do dinheiro doado
+- Sistema de metas
