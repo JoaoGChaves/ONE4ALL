@@ -29,7 +29,9 @@ História do Usuário 6 : Eu, como usuário (doador frequente), gostaria de pode
 Sketch: (Inclua um desenho simples de uma tela.)
 Storyboard: (Crie uma série de imagens ou esboços que mostram o processo de um usuário utilizando a página da história.)
 
-
+História do Usuário 7 :Eu, como usuário (doador recorrente), gostaria de uma funcionalidade onde eu possa doar mensamente para determinada intituição sem ter que abrir o site todo mês.
+Sketch: (Inclua um desenho simples de uma tela.)
+Storyboard: (Crie uma série de imagens ou esboços que mostram o processo de um usuário utilizando a página da história.)
 
 
 
