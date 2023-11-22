@@ -8,31 +8,31 @@ Adaptável e gratuita à qualquer OCS, ONG ou projeto social.
 
 
 # EQUIPE DE DESIGN
-> # Ana Tereza Rio / Gestão de design / atrrb@cesar.school
+> Ana Tereza Rio / Gestão de design / atrrb@cesar.school
 >
-> # Júlia Castelão / Organização e design gráfico / jpc@cesar.school
+> Júlia Castelão / Organização e design gráfico / jpc@cesar.school
 >
-> # Luana Chaves / Design gráfico / lbmvc@cesar.school
+> Luana Chaves / Design gráfico / lbmvc@cesar.school
 >
-> # Luana Vieira / Revisão / lval@cesar.school
+> Luana Vieira / Revisão / lval@cesar.school
 >
-> # Lucas de Gusmão / Pesquisa / lgbs2@cesar.
+> Lucas de Gusmão / Pesquisa / lgbs2@cesar.
 >
-> # Maria Luíza Paiva / Revisão / mlpfpc@cesar.school
+> Maria Luíza Paiva / Revisão / mlpfpc@cesar.school
 
 
 # EQUIPE DE CIÊNCIA DA COMPUTAÇÃO
-> # Caio Fonseca / Desenvolvimento e pesquisa / cmaf@cesar.school
+> Caio Fonseca / Desenvolvimento e pesquisa / cmaf@cesar.school
 >
-> # João Guilherme Chaves / Desenvolvimento e pesquisa / jgcl@cesar.school
+> João Guilherme Chaves / Desenvolvimento e pesquisa / jgcl@cesar.school
 >
-> # Gustavo Laporte / Desenvolvimento e pesquisa / ghml@cesar.school
+> Gustavo Laporte / Desenvolvimento e pesquisa / ghml@cesar.school
 >
-> # Matheos Guerra / Desenvolvimento e pesquisa / mog@cesar.school
+> Matheos Guerra / Desenvolvimento e pesquisa / mog@cesar.school
 >
-> # Paulo Portella / Gestão de ciência da computação / phcp@cesar.school
+> Paulo Portella / Gestão de ciência da computação / phcp@cesar.school
 >
-> # Tiago Stamford / Revisão / tjs2@cesar.school
+> Tiago Stamford / Revisão / tjs2@cesar.school
 
 
 # DESAFIO
