@@ -6,6 +6,14 @@ de atividades da organização; Gerar relatórios de prestação de contas e, al
 Adaptável e gratuita à qualquer OCS, ONG ou projeto social.
 
 
+ # LINK DO GOOGLE SITES 
+ > https://sites.google.com/d/1TOUQxZYch5lRJiHBSCh79cShg_zNVbap/p/1_moMPeGmbGzsEH2SBMAoeYfE_IZeEPpB/edit?pli=1&authuser=3
+
+
+# LINK DO LOWFY (FIGMA)
+> https://www.figma.com/file/Fr6XjxBQaLwFmAimDOrcUw/ONE4ALL?type=design&node-id=0-1&mode=design&t=7ojrgmxZrYuhO1Ld-0
+
+
 
 # EQUIPE DE DESIGN
 > Ana Tereza Rio / Gestão de design / atrrb@cesar.school
