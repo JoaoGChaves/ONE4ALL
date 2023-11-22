@@ -22,19 +22,41 @@ Adaptável e gratuita à qualquer OCS, ONG ou projeto social.
 
 
 # EQUIPE DE CIÊNCIA DA COMPUTAÇÃO
-> Caio Fonseca / Desenvolvimento e pesquisa / cmaf@cesar.school
+> # Caio Fonseca / Desenvolvimento e pesquisa / cmaf@cesar.school
 >
-> João Guilherme Chaves / Desenvolvimento e pesquisa / jgcl@cesar.school
+> # João Guilherme Chaves / Desenvolvimento e pesquisa / jgcl@cesar.school
 >
-> Gustavo Laporte / Desenvolvimento e pesquisa / ghml@cesar.school
+> # Gustavo Laporte / Desenvolvimento e pesquisa / ghml@cesar.school
 >
-> Matheos Guerra / Desenvolvimento e pesquisa / mog@cesar.school
+> # Matheos Guerra / Desenvolvimento e pesquisa / mog@cesar.school
 >
-> Paulo Portella / Gestão de ciência da computação / phcp@cesar.school
+> # Paulo Portella / Gestão de ciência da computação / phcp@cesar.school
 >
-> Tiago Stamford / Revisão / tjs2@cesar.school
+> # Tiago Stamford / Revisão / tjs2@cesar.school
 
 
 # DESAFIO
+> Desenvolvimento de uma plataforma capaz de: mapear o histórico de atividades da organização, gerar relatório de prestação de contas e de ser adaptável para qualquer OCS, ONG, projeto social, utilizar de forma gratuita.
+> Doadores e stakeholders devem ter acesso ao resultado do dinheiro doado e das ações que foram implementadas pela ONG, para, assim, ao se conectar com essas informações, dados seriam transformados em apelos emocionais, convencimento.
+>
+>
 > # PROBLEMA
 > > Como as ONGs e projetos sociais, com poucos recursos, podem organizar e mapear seu histórico de atividades de forma dinâmica, gerando relatórios de prestação de contas, a fim de aumentar a divulgação dos seus trabalhos para doadores e a captação de recursos financeiros?
+>
+> 
+> # CENÁRIO DO PROBLEMA
+> > No cenário em questão, ONGs e projetos sociais enfrentam o desafio de gerir suas atividades com recursos limitados e buscam maneiras dinâmicas de organizar, mapear e documentar suas ações, a fim de produzir relatórios detalhados de prestação de contas. 
+> > Isso é essencial para aumentar a visibilidade de suas iniciativas, conquistar doadores e obter recursos financeiros necessários para sustentar suas operações e programas.
+>
+> 
+> # COMO OCORRE
+> > O problema ocorre devido aos desafios enfrentados por recursos limitados, incluindo a diversidade de atividades, a coleta descentralizada de dados, a dependência de mão de obra voluntária, a necessidade de transparência para atrair financiadores, e a falta de acesso a ferramentas adequadas
+>
+>
+> # IMPACTADOS
+> > O problema impacta diretamente as ONGs e projetos sociais, dificultando sua capacidade de gerenciar eficazmente suas atividades, prestar contas de seus resultados e atrair doadores e financiamento. Além disso, afeta os beneficiários e comunidades atendidas, que dependem dessas organizações para assistência, bem como doadores, voluntários, stakeholders, e a sociedade em geral, que esperam transparência e resultados mensuráveis das ONGs para garantir que suas missões sociais sejam cumpridas com eficácia e impacto positivo. 
+>
+>
+> # CAUSAS E CONSEQUÊNCIAS
+> > As causas do problema, como já citadas, incluem recursos limitados, complexidade das atividades, coleta descentralizada de dados, dependência de mão de obra voluntária e a falta de ferramentas específicas.
+> > Isso resulta em ineficiência operacional, falta de transparência, dificuldades na captação de recursos, impacto limitado nas comunidades e perda de oportunidades de colaboração. 
