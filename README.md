@@ -60,3 +60,9 @@ Adaptável e gratuita à qualquer OCS, ONG ou projeto social.
 > # CAUSAS E CONSEQUÊNCIAS
 > > As causas do problema, como já citadas, incluem recursos limitados, complexidade das atividades, coleta descentralizada de dados, dependência de mão de obra voluntária e a falta de ferramentas específicas.
 > > Isso resulta em ineficiência operacional, falta de transparência, dificuldades na captação de recursos, impacto limitado nas comunidades e perda de oportunidades de colaboração. 
+
+
+# SOLUÇÃO 
+> Uma plataforma (Sistema Web) white label com painel de controle de dados e página de doação (landing page customizável), criado com a intenção de funcionar para todo tipo de ONG, projetos e causas.
+> # COMO A NOSSA SOLUÇÃO RESOLVE O PROBLEMA
+> > A plataforma vai facilitar e agilizar a organização interna das ONGs, além de servir como divulgação e alavancar a captação de recursos financeiros, pois apresenta para potenciais doadores o impacto positivo de suas ações.
