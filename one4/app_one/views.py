@@ -14,7 +14,7 @@ def pagina_login(request):
         print(usuario,)
         if usuario is not None:
             login(request, usuario)
-            return redirect('dados')
+            return redirect('pagamento')
         else:
             messages.error (request, 'Usuario ou senha incorretos.')
     return render(request, 'login.html')
@@ -42,4 +42,7 @@ def pagina_cadastro(request):
             print(meu_usuario)
             return redirect('login')
     return render(request, 'cadastro.html')
+
+def pagina_pagamento(request):
+    return render(request, 'pagamento.html')
 
