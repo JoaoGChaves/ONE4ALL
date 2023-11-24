@@ -15,7 +15,7 @@ Adaptável e gratuita à qualquer OCS, ONG ou projeto social.
 
 
 # DIAGRAMA DE ATIVIDADES
-![image](blob:chrome-untrusted://media-app/52c89ff3-1f27-4f3d-8928-7696c04b9415)
+![image](blob:chrome-untrusted://media-app/cae287c7-015c-4679-8151-9a872544bda7)
 # EQUIPE DE DESIGN
 > Ana Tereza Rio / Gestão de design / atrrb@cesar.school
 >
