@@ -1,0 +1,100 @@
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+}
+:root{
+    --cor_background: #fff;
+    --cor_principal: #a7e0e9;
+    --cor_secundaria:#89687D;
+    --cor_sombra: #fc9b89;
+    --cor_chumbo: #000;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--cor_background);
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cabeca{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.cabeca .cEsq { 
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+}
+.cDir{
+    justify-content: end;
+    /* padding: 20px; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo img{
+    width: 150px;
+    height: 100px;
+}
+.botoesh a{
+    color: var(--cor_sombra);
+    text-decoration: none;
+    font-weight: 700;
+}
+.botoesh a:hover{
+    cursor: pointer;
+    color: var(--cor_secundaria);
+}
+.botoesh{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 50%;
+    height: 50%;
+    background-color: #fff;
+    border: 1px #000;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+.botoes{
+    width: 100%;
+    padding: 20px 20px;
+    margin: 10px;
+    flex-direction: column;
+}
+.botoes a{
+    text-decoration: none;
+    border: 1px black;
+    padding: 8px 16px;
+    background-color: var(--cor_sombra);
+    color: #fff;
+    border-radius: 16px;
+    margin: 10px;
+}
