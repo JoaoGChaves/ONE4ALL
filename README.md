@@ -14,7 +14,8 @@ Adaptável e gratuita à qualquer OCS, ONG ou projeto social.
 > https://www.figma.com/file/Fr6XjxBQaLwFmAimDOrcUw/ONE4ALL?type=design&node-id=0-1&mode=design&t=7ojrgmxZrYuhO1Ld-0
 
 
-
+# DIAGRAMA DE ATIVIDADES
+![image](blob:chrome-untrusted://media-app/52c89ff3-1f27-4f3d-8928-7696c04b9415)
 # EQUIPE DE DESIGN
 > Ana Tereza Rio / Gestão de design / atrrb@cesar.school
 >
