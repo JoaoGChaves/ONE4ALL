@@ -12,27 +12,24 @@
 </head>
 <body>
     <div class="home">
-        <!-- card -->
         <div class="card">
-            <!-- formulario de login -->
             <form method="post">
-                <img src="Imagem do WhatsApp de 2023-10-16 à(s) 18.11.51_5f6cfe17.jpg" alt="logo">
+                {% crsf_token %}
+                <img src="logo.jpg" alt="logo">
                 <h1>Faça seu login</h1>
-                <!-- email input -->
                 <div class="inputdiv">
                     <span class="material-symbols-outlined">
                         person
                     </span>
-                    <input type="email" name="email" class="foco" id="login_email" placeholder="Email">
+                    <input type="email" name="email" class="foco" id="email" placeholder="Email">
                 </div>
-                <!-- senha input -->
                 <div class="inputdiv">
                     <span class="material-symbols-outlined">
                         lock
                     </span> 
-                    <input type="password" name="password" class="foco" id="login_password" placeholder="Senha">
+                    <input type="password" name="password" class="foco" id="password" placeholder="Senha">
                 </div>
-                <button type="submit" name="LOGIN" id="login">Entrar</button>
+                <button type="submit" name="login" id="login">Entrar</button>
             </form>
         </div>
     </div>
