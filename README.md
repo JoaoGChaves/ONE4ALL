@@ -64,7 +64,7 @@ A plataforma vai facilitar e agilizar a organização interna das ONGs, além de
 
 # SCREENCAST DOADOR
 
-# STORYBOARD
+# DIAGRAMA DE ATIVIDADES
 
 
 # EQUIPE DE DESIGN
