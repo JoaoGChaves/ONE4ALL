@@ -76,7 +76,7 @@ A plataforma vai facilitar e agilizar a organização interna das ONGs, além de
 >
 > Luana Vieira / Revisão / lval@cesar.school
 >
-> Lucas de Gusmão / Pesquisa / lgbs2@cesar.
+> Lucas de Gusmão / Pesquisa / lgbs2@cesar
 >
 > Maria Luíza Paiva / Revisão / mlpfpc@cesar.school
 
