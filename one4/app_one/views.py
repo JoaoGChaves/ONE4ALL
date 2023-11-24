@@ -19,28 +19,6 @@ def pagina_login(request):
             messages.error (request, 'Usuario ou senha incorretos.')
     return render(request, 'login.html')
 
-from django.shortcuts import render, redirect
-from django.contrib.auth.models import User
-from django.contrib.auth import authenticate, login
-from django.contrib import messages
-from .models import cadastro
-
-def pagina_index(request):
-    return render(request, 'index.html')
-
-def pagina_login(request):
-    if request.method == 'POST':
-        email = request.POST.get('email')
-        senha1 = request.POST.get('password')
-        usuario = authenticate(request, email = email, password = senha1)
-        print(usuario,)
-        if usuario is not None:
-            login(request, usuario)
-            return redirect('dados')
-        else:
-            messages.error (request, 'Usuario ou senha incorretos.')
-    return render(request, 'login.html')
-
 def pagina_cadastro(request):
     if request.method == 'POST':
         nomeOrg = request.POST.get('nomeOrg')
