@@ -91,6 +91,13 @@ Funcionalidades:
 
 A plataforma vai facilitar e agilizar a organização interna das ONGs, além de servir como divulgação e alavancar a captação de recursos financeiros, pois apresenta para potenciais doadores o impacto positivo de suas ações.
 
+# SCREENCAST ONG
+
+# SCREENCAST DOADOR
+
+# STORYBOARD
+
+
 # EQUIPE DE DESIGN
 > Ana Tereza Rio / Gestão de design / atrrb@cesar.school
 >
