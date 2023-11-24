@@ -28,20 +28,21 @@ def pagina_cadastro(request):
         email = request.POST.get('email')
         senha1 = request.POST.get('senha')
         senha2 = request.POST.get('confirmar')
-
         if senha1 == senha2:
-            meu_usuario = Cadastro(
+            novo_cadastro = Cadastro(
                 nomeOrg=nomeOrg,
                 nomeResp=nomeResp,
                 cnpj=cnpj,
-                telefone=telefone,
+                telefone=telefone,  # Garanta que este campo corresponda ao nome no formulário HTML
                 email=email,
                 senha=senha1
             )
-            meu_usuario.save()
-            print(meu_usuario)
+            novo_cadastro.save()
             return redirect('login')
+        else:
+            messages.error(request, 'As senhas estão diferentes!')
     return render(request, 'cadastro.html')
+
 
 def pagina_pagamento(request):
     return render(request, 'pagamento.html')

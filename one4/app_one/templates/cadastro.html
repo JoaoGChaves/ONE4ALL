@@ -107,58 +107,57 @@
     </style>
 <body>
     <div class="conteudo center">
-            <div class="card center">
-                <h1>CADASTRO</h1>
-                <form action="{% url 'login' %}" class="center" method="POST">
-                    {% csrf_token %}
-                    <div class="inputdiv">
-                        <label for="">Nome da organização*</label>
-                        <input type="text" name="nomeOrg" id="nomeOrg" required>
+        <div class="card center">
+            <h1>CADASTRO</h1>
+            <form action="{% url 'login' %}" class="center" method="POST">
+                {% csrf_token %}
+                <div class="inputdiv">
+                    <label for="">Nome da organização*</label>
+                    <input type="text" name="nomeOrg" id="nomeOrg" required>
+                </div>
+                <div class="inputdiv">
+                    <label for="nome">Nome do responsável*</label>
+                    <input type="text" name="nomeResp" id="nomeResp" required>
+                </div>
+                <div class="inputdiv">
+                    <label for="email">Email*</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="inputdiv">
+                    <label for="">CNPJ*</label>
+                    <input type="text" id="cnpj" name="cnpj" required>
+                </div>
+                <div class="inputdiv">
+                    <label for="">(DDD + Telefone celular)*</label>
+                    <input type="text" name="tel" id="tel" required>
+                </div>
+        </div>
+        <div class="card center">
+            <form action="{% url 'login' %}" class="center" method="POST">
+                {% csrf_token %}
+                <div class="inputdiv">
+                    <label for="">Senha*</label>
+                    <div class="inputNew">
+                        <input type="password" id="senha" name="senha" required>
+                        <span class="material-symbols-outlined">
+                            visibility_off
+                        </span>
                     </div>
-                    <div class="inputdiv">
-                        <label for="nome">Nome do responsável*</label>
-                        <input type="text" name="nomeResp" id="nomeResp" required>
+                </div>
+                <div class="inputdiv">
+                    <label for="">Confirmar senha*</label>
+                    <div class="inputNew">
+                        <input type="password" id="confirmar" name="confirmar" required>
+                        <span class="material-symbols-outlined">
+                            visibility_off
+                        </span>
                     </div>
-                    <div class="inputdiv">
-                        <label for="email">Email*</label>
-                        <input type="text" id="email" name="email" required>
-                    </div>
-                    <div class="inputdiv">
-                        <label for="">CNPJ*</label>
-                        <input type="text" id="cnpj" name="cnpj" required>
-                    </div>
-                    <div class="inputdiv">
-                        <label for="">(DDD + Telefone celular)*</label>
-                        <input type="text" name="tel" id="tel" required>
-                    </div>
-            </div>
-            <div class="card center">
-                <form action="{% url 'login' %}" class="center" method="POST">
-                    {% csrf_token %}
-                    <div class="inputdiv">
-                        <label for="">Senha*</label>
-                        <div class="inputNew">
-                            <input type="password" id="senha" name="senha" required>
-                            <span class="material-symbols-outlined">
-                                visibility_off
-                            </span>
-                        </div>
-                    </div>
-                    <div class="inputdiv">
-                        <label for="">Confirmar senha*</label>
-                        <div class="inputNew">
-                            <input type="password" id="confirmacao" name="confirmacao" required>
-                            <span class="material-symbols-outlined">
-                                visibility_off
-                            </span>
-                        </div>
-                    </div>
-                    <div class="butao center">
-                        <button>Cadastrar</button>
-                    </div>
-                </form>
-            </div>
-    </div>
+                </div>
+                <div class="butao center">
+                    <button>Cadastrar</button>
+                </div>
+            </form>
+        </div>
+</div>
 </body>
-
 </html>
