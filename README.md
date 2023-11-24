@@ -61,11 +61,12 @@ Funcionalidades:
 A plataforma vai facilitar e agilizar a organização interna das ONGs, além de servir como divulgação e alavancar a captação de recursos financeiros, pois apresenta para potenciais doadores o impacto positivo de suas ações.
 
 # SCREENCAST ONG
-
+> https://github.com/JoaoGChaves/ONE4ALL/assets/142994236/0dfeb71b-8e31-4eee-8255-ea9d2c196d37
 # SCREENCAST DOADOR
+> https://github.com/JoaoGChaves/ONE4ALL/assets/142994236/8324d684-395d-4e27-8c98-ef790a1a1e91
 
-# STORYBOARD
-
+# DIAGRAMA DE ATIVIDADES
+> ![DIAGRAMA DE ATIVIDADES 14](https://github.com/JoaoGChaves/ONE4ALL/assets/142994236/95bfca19-763c-444a-bd17-419423177881)
 
 # EQUIPE DE DESIGN
 > Ana Tereza Rio / Gestão de design / atrrb@cesar.school
@@ -76,7 +77,7 @@ A plataforma vai facilitar e agilizar a organização interna das ONGs, além de
 >
 > Luana Vieira / Revisão / lval@cesar.school
 >
-> Lucas de Gusmão / Pesquisa / lgbs2@cesar.
+> Lucas de Gusmão / Pesquisa / lgbs2@cesar
 >
 > Maria Luíza Paiva / Revisão / mlpfpc@cesar.school
 
