@@ -37,6 +37,6 @@ Funcionalidades:
 - Sistema de metas
 
 
-DE QUE FORMA A SOLUÇÃO RESOLVE O PROBLEMA? ]
+DE QUE FORMA A SOLUÇÃO RESOLVE O PROBLEMA? 
 
 A plataforma vai facilitar e agilizar a organização interna das ONGs, além de servir como divulgação e alavancar a captação de recursos financeiros, pois apresenta para potenciais doadores o impacto positivo de suas ações.
