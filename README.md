@@ -66,7 +66,7 @@ A plataforma vai facilitar e agilizar a organização interna das ONGs, além de
 > https://github.com/JoaoGChaves/ONE4ALL/assets/142994236/8324d684-395d-4e27-8c98-ef790a1a1e91
 
 # DIAGRAMA DE ATIVIDADES
-> ![DIAGRAMA DE ATIVIDADES 14](https://github.com/JoaoGChaves/ONE4ALL/assets/142994236/95bfca19-763c-444a-bd17-419423177881)
+> !![DIAGRAMAMA ONE4ALL](https://github.com/JoaoGChaves/ONE4ALL/assets/142994236/e68525f4-ce91-4c98-9eba-8e2b134f0e52)
 
 # EQUIPE DE DESIGN
 > Ana Tereza Rio / Gestão de design / atrrb@cesar.school
