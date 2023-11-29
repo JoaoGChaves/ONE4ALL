@@ -33,17 +33,22 @@ def pagina_cadastro(request):
                 nomeOrg=nomeOrg,
                 nomeResp=nomeResp,
                 cnpj=cnpj,
-                telefone=telefone,  # Garanta que este campo corresponda ao nome no formulário HTML
+                telefone=telefone,
                 email=email,
-                senha=senha1
-            )
+                senha=senha1)
             novo_cadastro.save()
             return redirect('login')
         else:
             messages.error(request, 'As senhas estão diferentes!')
     return render(request, 'cadastro.html')
 
-
 def pagina_pagamento(request):
     return render(request, 'pagamento.html')
-
+  
+def pagina_unica(request):
+  
+  return render(request, 'doacaoUnic.html')
+def pagina_mensal(request):
+    return render(request, 'doacaoMens.html')
+def pagina_ajuda(request):
+    pass

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pagamento_style.css">
@@ -111,23 +112,23 @@
         <div class="cabeca">
             <div class="cEsq center">
                 <div class="logo">
-                    <img src="Imagem do WhatsApp de 2023-10-16 à(s) 18.11.51_5f6cfe17.jpg" alt="">
+                    <img src="{% static 'logo.jpg' %}" alt="">
                 </div>
             </div>
             <div class="cDir">
                 <div class="botoesh">
-                    <a href="">Home</a>
-                    <a href="">Contato</a>
-                    <a href="">Dashboard</a>
-                    <a href="">Sobre</a>
+                    <a name= "home" id= "home" href="">Home</a>
+                    <a name= "contato" id = "contato" href="">Contato</a>
+                    <a name= "dashboard" id = "dashboard" href="">Dashboard</a>
+                    <a name = "sobre" id = "sobre" href="">Sobre</a>
                 </div>
             </div>
         </div>
         <div class="card center">
             <h1>Você gostaria de doar este valor mensalmente?</h1>
             <div class="botoes center">
-                <a href="">Doar mensalmente (débito automático)</a>
-                <a href="">Fazer apenas essa doação</a>
+                <a id = "mensalmente" name= "mensalmente" href="{% url 'mensal' %}">Doar mensalmente (débito automático)</a>
+                <a id= "unica" name= "unica" href="{% url 'unica' %}">Fazer apenas essa doação</a>
             </div>
         </div>
     </div>

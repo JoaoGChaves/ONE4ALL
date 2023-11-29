@@ -1,0 +1,138 @@
+/* Poppins */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+:root{
+    --cor_background: #f5f5f5;
+    --cor_azul: #a7e0e9;
+    --cor_roxo:#89687D;
+    --cor_rosa: #fc9b89;
+    --cor_rosa_claro: #FCD8CC;
+    --cor_preto_cinza: #231f20;
+    --cor_bege: #BDB19F;
+    --cor_roxa2: #7C80D4;
+    --cor_amarelo: #E8AF61;
+    --cor_amarelo2: #EEDC39;
+    --cor_preto: #000;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--cor_background);
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    background-color: var(--cor_roxa2);
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+.navEsq{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.navEsq h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+.navEsq img{
+    width: 10%;
+}
+.navDir{
+    display: flex;
+    width: 40%;
+    justify-content: right;
+    /* justify-content: end; */
+    align-items: center;
+}
+.abas{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.abas a{
+    text-decoration: none;
+    color: var(--cor_preto_cinza);
+    font-size: 18px;
+    font-weight: 600;
+}
+.abas a:hover{
+    color: #E8AF61;
+}
+.banner{
+    width: 70%;
+    padding: 40px 0px;
+}
+.texto1{
+    flex-direction: column;
+}
+.texto1 h2{
+    font-weight: 400;
+}
+.doacoes{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+.doacaoM{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor_amarelo);
+    padding: 40px 0px;
+}
+.doacaoU{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor_amarelo);
+    padding: 40px 0px;
+}
+.doacaoM a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: var(--cor_preto);
+    background-color: var(--cor_amarelo2);
+    border-radius: 20px;
+}
+.doacaoU a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: var(--cor_preto);
+    background-color: var(--cor_amarelo2);
+    border-radius: 20px;
+}
+.doacaoM p{
+    width: 70%;
+    padding: 5px 0px;
+    font-size: 20px;
+}
+.doacaoU p{
+    width: 70%;
+    padding: 5px 0px;
+    font-size: 20px;
+}
