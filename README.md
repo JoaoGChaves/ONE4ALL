@@ -179,3 +179,14 @@ reforço meu engajamento contínuo com a organização.
 
 
 # STORYBOARD
+> ![STORYBOARD](https://github.com/JoaoGChaves/ONE4ALL/assets/142994236/41ee7250-ef61-46c3-94f5-ea38e6b3de2d)
+
+
+# PROGRAMAÇÃO EM PAR
+> Paulo Portella e Matheos Guerra lideraram o desenvolvimento do front-end do projeto, adotando a técnica de programação em pares para otimizar a criação de interfaces em HTML e CSS. Essa abordagem colaborativa permitiu a troca eficiente de ideias e revisão de código, resultando em interfaces de usuário mais atrativas, funcionais e intuitivas.
+
+> Gustavo Laporte e Caio Fonseca empregaram a técnica de programação em pares no desenvolvimento do back-end com Python e Django. Essa abordagem permitiu uma colaboração eficiente e revisão contínua, resultando em um código de alta qualidade. Juntos, eles otimizaram a lógica do sistema, garantindo segurança e escalabilidade, e aceleraram o processo de desenvolvimento com soluções técnicas e ágeis.
+
+> João Guilherme Chaves e Tiago Stanford tiveram papéis fundamentais no projeto, focando na revisão de códigos, gerenciamento de commits no GitHub, e deployment na Azure. Eles asseguraram a qualidade do código, mantiveram a organização do repositório e garantiram uma implementação eficiente na nuvem, contribuindo significativamente para a eficácia e o sucesso do projeto.
+
+> A colaboração intensiva por meio da programação em pares desempenhou um papel crucial no desenvolvimento do projeto, tanto no front-end quanto no back-end. A sinergia entre as duplas foi fundamental para criar interfaces atrativas, código eficiente, e uma implementação sólida na nuvem. O uso dessa abordagem colaborativa não apenas facilitou a troca de ideias e a revisão contínua, mas também resultou em um produto final de alta qualidade, destacando-se pela funcionalidade, segurança e eficácia no desenvolvimento. O sucesso do projeto é, sem dúvida, uma celebração do trabalho conjunto e da dedicação de uma equipe coesa ao longo do processo.
