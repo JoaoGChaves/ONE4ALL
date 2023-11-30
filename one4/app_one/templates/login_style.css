@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+
+:root{
+    --cor_background: #fff;
+    --cor_principal: #a7e0e9;
+    --cor_secundaria:#89687D;
+    --cor_sombra: #fc9b89;
+    --cor_chumbo: #000;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(FotosCapa/BackgroundAtol.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+}
+.home a{
+    text-decoration: none;
+    background-color: #f2de01;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+    border: 1px solid #f2de01;
+    font-weight: 500;
+}
+.home a:hover{
+    background-color: #fff;
+    color: #f2de01;
+    border: 1px solid #fff;
+}
+.card{
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 16px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    padding: 20px 20px;
+    width: 40%;
+
+
+}
+.card form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card form img{
+    width: 300px;
+}
+.card form h1{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+}
+.inputdiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #e6e6e6;
+}
+.inputdiv:focus{
+    outline: 1px solid #23316e;
+}
+.inputdiv span{
+    width: 10%;
+    color: var(--cor_sombra);
+    font-size: 24px;
+    padding-left: 4px;
+}
+.inputdiv input{
+    border: none;
+    width: 90%;
+    height: 100%;
+    padding: 14px 10px;
+    color: #32313d;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #e6e6e65b;
+}
+.inputdiv input::placeholder{
+    color: #000;
+}
+/* input ativado */
+.foco:focus{
+    outline: none;
+}
+.card form button{
+    margin-top: 50px;
+    width: 40%;
+    padding: 8px 0px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 400;
+    /* border: 1px solid var(--cor_chumbo); */
+    background-color: var(--cor_sombra);
+    font-size: 20px;
+    color: #fff;
+}
+.card form button:hover{
+    background: none;
+    /* border: 1px solid var(--cor_chumbo);; */
+    color: var(--cor_secundaria);;
+}
+.load{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.load img{
+    width: 50%;
+    height: 60%;
+
+}
+.tudo{
+    display: none;
+}
+/* tela de cell e outros dispositivos */
+@media only screen and (max-width: 600px){
+  .card{
+    width: 98%;
+  }
+  .load img{
+    width: 100%;
+    height: 25%;
+
+}
+}
