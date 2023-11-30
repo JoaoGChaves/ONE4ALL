@@ -3,8 +3,8 @@ from django.contrib.auth import authenticate, login
 from django.contrib import messages
 from .models import Cadastro
 
-def pagina_index(request):
-    return render(request, 'index.html')
+def pagina_inicio(request):
+    return render(request, 'telainicio.html')
 
 def pagina_login(request):
     if request.method == 'POST':
@@ -42,11 +42,32 @@ def pagina_cadastro(request):
             messages.error(request, 'As senhas estão diferentes!')
     return render(request, 'cadastro.html')
 
+def pagina_feed(request):
+  return render(request, 'feedtransparencia.html')
+
+def pagina_sobrenos(request):
+  return render(request, 'sobrenos.html')
+
+def pagina_tabela(request):
+  return render(request, 'doadorTabela.html')
+
+def pagina_queroAjudar(request):
+  return render(request, 'queroAjudar.html')
+  
 def pagina_unica(request):
     return render(request, 'doacaoUnic.html')
 
 def pagina_mensal(request):
     return render(request, 'doacaoMens.html')
 
-def pagina_ajuda(request):
-    return render(request, 'queroAjudar.html')
+def pagina_pagamento1(request):
+  return render (request, 'areaPagamento1.html')
+
+def pagina_pagamento2(request):
+  return render (request, 'areaPagamento2.html')
+
+def pagina_pagamento3(request):
+  return render (request, 'areaPagamento3.html')
+
+def pagina_confirmacao (request):
+    return render(request, 'telaconfirmacao.html')

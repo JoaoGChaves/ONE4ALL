@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="telainicio_style.css">
+    <style>
+        /* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+:root{
+    --cor_background: #f5f5f5;
+    --cor_azul: #a7e0e9;
+    --cor_roxo:#89687D;
+    --cor_rosa: #fc9b89;
+    --cor_rosa_claro: #FCD8CC;
+    --cor_preto_cinza: #231f20;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: url(../img/background.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.meio{
+    width: calc(60% - 256px);
+    height: 50vh;
+    background-color: var(--cor_background);
+    display: flex;
+    flex-direction: column;
+    padding: 64px 128px;
+    border-radius: 16px;
+}
+.meio h1{
+    color: var(--cor_preto_cinza);
+    font-size: 32px;
+    font-weight: 600;
+    padding: 15px 0px;
+}
+.meio h2{
+    color: var(--cor_preto_cinza);
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+.botao{
+    padding: 24px;
+}
+.botao a{
+    text-decoration: none;
+    padding: 16px 64px;
+    border-radius: 16px;
+    margin-top: 20px;
+    color: var(--cor_preto_cinza);
+    background-color: var(--cor_rosa);
+    font-size: 24px;
+    font-weight: 600;
+}
+    </style>
+    <title>Tela inicial</title>
+</head>
+<body class="center">
+    <div class="home">
+        <div class="meio center">
+            <img src="img/logoOne4All.png" alt="">
+            <h1>Facilite. Organize. Planeje.</h1>
+            <h2>Participe de uma experiência única que irá transformar a maneira como você organiza e planeja suas arrecadações. ONE4ALL é inovação, estruturação e simplicidade. Explore as diversas possibilidades de organização bem aqui.</h2>
+        </div>
+        <div class="botao">
+            <a id= "entrar" href="login.html">ENTRAR</a>
+        </div>
+    </div>
+    
+</body>
+</html>

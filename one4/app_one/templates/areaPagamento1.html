@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/areaPagamento1_style.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Pagamento</title>
+</head>
+<body>
+    <div class="home">
+        <div class="nav">
+            <div class="navEsq">
+                <img src="img/logoPatas.png" alt="">
+                    <h1>Vida em Patas</h1>
+            </div>
+            <div class="navDir">
+                <div class="abas">
+                  <a id= "sobrenos" href= "{% url 'sobrenos.html' % }">Sobre Nós</a>
+                  <a id= "feed" href="{ % url 'feedtransparencia' %}">Feed de transparência</a>
+                  <a id= "queroAjudar" href="{ % url 'queroAjudar.html' %}">Quero ajudar</a>
+                </div>
+            </div>
+        </div>
+        <div class="fluxo center">
+            <div class="fl1 center">
+                <span class="material-symbols-outlined">
+                    counter_1
+                    </span> 
+                <h2>Cadastro</h2>
+            </div>
+            <div class="fl2 center">
+                <span class="material-symbols-outlined">
+                    counter_2
+                    </span>
+                    <h2>Pagamento</h2>
+            </div>
+            <div class="fl3 center">
+                <span class="material-symbols-outlined">
+                    counter_3
+                    </span>
+                <h2>Confirmação</h2>
+            </div>
+        </div>
+        <div class="cadastroInfo">
+            <h1>Cadastre-se</h1>
+            <h2>Para finalizar, informe seus dados pessoais</h2>
+            <h3>Utilizamos apenas informações essenciais para realizar a doação</h3>
+        </div>
+        <div class="inputs">
+            <div class="esq">
+                <div class="email">
+                    <label for="">Email</label>
+                    <input id="Email"type="text">
+                </div>
+                <div class="colunas">
+                    <div class="coluna1">
+                        <label for="">Primeiro nome</label>
+                        <input id="Primeiro nome" type="text">
+            
+                        <label for="">CPF</label>
+                        <input id="CPF" type="number">
+            
+                        <label for="">Data de nascimento</label>
+                        <input id="nascimento" type="date">
+                    </div>
+                        <div class="coluna2">
+                            <label for="">Último nome</label>
+                            <input id="Primeiro nome" type="text">
+            
+                            <label for="">Telefone</label>
+                            <input id="fone" type="number">
+                
+                            <label for="">Gênero</label>
+                            <input id="Gênero" type="text">
+                        </div>
+                </div>
+                    <div class="how">
+                        <label for="">Como você chegou a este formulário de doação</label>
+                        <input id="Primeiro nome" type="text">
+                    </div>
+            </div>
+            <div class="dir">
+                <div class="coluna3">
+                    <label for="">CEP</label>
+                    <input id="CEP" type="text">
+                    
+                <h1>Rua Ferreira Lopes <BR> Parnamirim, Recife-PE</h1>
+                    <div class="caixa">
+                        <div class="c1">
+                            <label for="">Número</label>
+                            <input id="Número" type="number">
+                        </div>
+                        <div class="c2">
+                                <label for="">Complemento</label>
+                                <input id="Complemento" type="text">
+                        </div>
+                    </div>
+                    
+                    <input type="checkbox" name="" id="check">
+                    <label for="">Desejo acompanhar a prestação de contas de campanha de informações sobre a ONG</label>
+                    
+                    <div class="butao">
+                        <a id= "continuar" href="">CONTINUAR</a>
+                    </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

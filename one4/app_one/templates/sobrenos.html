@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  { % load static % }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/sobrenos_style.css">
+    <link rel="stylesheet" href="style/animation.css">
+    <!-- Icones -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Sobre Nós</title>
+</head>
+<body>
+    <div class="home">
+        <div class="nav">
+            <div class="navEsq">
+                <span class="material-symbols-outlined">
+                    menu
+                    </span>
+                    <h1>foto</h1>
+                    <h1>Vida em Patas</h1>
+            </div>
+            <div class="navDir">
+                <div class="abas">
+                  <a id= "sobrenos" href= "{% url 'sobrenos.html' % }">Sobre Nós</a>
+                  <a id= "feed" href="{ % url 'feedtransparencia' %}">Feed de transparência</a>
+                  <a id= "queroAjudar" href="{ % url 'queroAjudar.html' %}">Quero ajudar</a>
+                </div>
+            </div>
+        </div>
+        <div class="main center">
+
+            <div class="galery">
+                <div class="fotos">
+                    <img src="img/carrossel5.jpg" alt="foto 1">
+                    <img src="img/carrossel6.jpg" alt="foto 2">
+                    <img src="img/carrossel7.jpg" alt="foto 3">
+                    <img src="img/carrossel8.png" alt="foto 4">
+                    <img src="img/carrossel5.jpg" alt="foto 1">
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            <div class="infoDir">
+                <div class="causa">
+                    <h1>Causa</h1>
+
+                </div>
+                <div class="texto1">
+                    <p>"Nas ruas, corações peludos batem solitários e abandonados. Eles anseiam por abrigos calorosos, carinho humano e a promessa de um amanhã mais seguro. Junte-se a nós na luta contra o abandono, dando a essas almas perdidas uma chance de encontrar o amor e a esperança que merecem."</p>
+                </div>
+            </div>
+            <div class="infoEsq">
+                <div class="proposito">
+                    <h1>Nosso Propósito </h1>
+
+                </div>
+                <div class="texto2">
+                    <p>Unidos pela causa animal, nossa ONG se dedica a resgatar, proteger e proporcionar um lar amoroso para animais em situações de abandono e maus-tratos. Trabalhamos incansavelmente para promover a conscientização sobre a importância da adoção responsável e da criação de um ambiente seguro para todas as patinhas que cruzam nosso caminho.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

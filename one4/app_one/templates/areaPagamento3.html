@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/areaPagamento3_style.css">
+    <title>Pagamento</title>
+</head>
+
+<body>
+    <div class="navbar center">
+        <div class="conteudo_nav center">
+            <div class="left center">
+                <img src="img/logoPatas.png" alt="">
+                <h1>Vida em patas</h1>
+            </div>
+            <div class="right center">
+              <a id= "sobrenos" href= "{% url 'sobrenos.html' % }">Sobre Nós</a>
+              <a id= "feed" href="{ % url 'feedtransparencia' %}">Feed de transparência</a>
+              <a id= "queroAjudar" href="{ % url 'queroAjudar.html' %}">Quero ajudar</a>
+            </div>
+        </div>
+    </div>
+    <div class="home center">
+        <div class="conteudo center">
+            <div class="top center">
+                <div class="item">
+                    <h2><span class="one">1</span>Cadastro</h2>
+                </div>
+                <div class="item">
+                    <h2><span>2</span>Pagamento</h2>
+                </div>
+                <div class="item">
+                    <h2><span class="mod">3</span>Confirmação</h2>
+                </div>
+            </div>
+            <div class="mid center">
+                <div class="coluna1">
+                    <div class="titulo">
+                        <h3>Realizar doação</h3>
+                        <p>Escolha como doar</p>
+                    </div>
+                    <button class="btn_mod">Cartão de Crédito</button>
+                    <button class="btn_mod2">Pix</button>
+                </div>
+                <div class="coluna2 center">
+                    <div class="item separacao">
+                        <p><span class="one">1</span>Escanei o QR-code</p>
+                    </div>
+                    <div class="item separacao">
+                        <p><span>2</span>Confira os dados e realize o pagemento pelo app do seu banco</p>
+                    </div>
+                    <img src="static/Qr_code.png" alt="">
+                </div>
+                <div class="coluna3">
+                    <div class="info">
+                        <h3>Endereço</h3>
+                        <p>Rua Ferreira Lopes, 734</p>
+                        <p>Parnmirim, Recife-PE</p>
+                        <p>52060-070</p>
+                    </div>
+                    <div class="info">
+                        <h3>Dados pessoais</h3>
+                        <p>Luanapaiva@gmail.com</p>
+                        <p>Luana Paiva</p>
+                        <p>+55 (81) 98743-5783</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="bot center">
+                <h4>Resumo da doação</h4>
+                <div class="conteudo_bot center">
+                    <div class="bot_esquerda">
+                       <h3>Valor escolhido</h3>
+                       <h3>R$ 100,00</h3> 
+                    </div>
+                    <button class="btn_mod2 mod_ag">Finalizar minha doação</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

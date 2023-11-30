@@ -22,11 +22,16 @@ from django.conf.urls.static import static
 
 urlpatterns = [
   path('admin/', admin.site.urls),
-  path('', views.pagina_index, name='inicial'),
+  path('', views.pagina_inicio, name='inicio'),
   path('login/', views.pagina_login, name='login'),
   path('cadastro/', views.pagina_cadastro, name='cadastro'),
-  path('pagamento/', views.pagina_pagamento, name='pagamento'),
   path('doacaoMensal/', views.pagina_mensal, name='mensal'),
   path('doacaoUnica/', views.pagina_unica, name= 'unica'),
-  path('queroAjuda/', views.pagina_ajuda, name= 'ajuda'),
+  path('queroAjuda/', views.pagina_queroAjudar, name= 'ajuda'),
+  path('sobrenos/', views.pagina_sobrenos, name= 'sobrenos'),
+  path('pagamento1/', views.pagina_pagamento1, name= 'pagamento1'),
+  path('pagamento2/', views.pagina_pagamento2, name= 'pagamento2'),
+  path('pagamento3/', views.pagina_pagamento3, name= 'pagamento3'),
+  path('feed/', views.pagina_feed, name= 'feed'),
+  path('tabela/', views.pagina_tabela, name= 'tabela'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
