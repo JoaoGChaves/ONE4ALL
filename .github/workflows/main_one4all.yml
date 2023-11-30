@@ -28,7 +28,7 @@ jobs:
           source venv/bin/activate
       
       - name: Install dependencies
-        run: pip install -r one4/requirements.txt
+        run: pip install -r one4/app_one
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
