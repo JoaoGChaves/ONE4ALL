@@ -42,11 +42,11 @@ def pagina_cadastro(request):
             messages.error(request, 'As senhas estão diferentes!')
     return render(request, 'cadastro.html')
 
-  
 def pagina_unica(request):
-  
-  return render(request, 'doacaoUnic.html')
+    return render(request, 'doacaoUnic.html')
+
 def pagina_mensal(request):
     return render(request, 'doacaoMens.html')
+
 def pagina_ajuda(request):
     return render(request, 'queroAjudar.html')
